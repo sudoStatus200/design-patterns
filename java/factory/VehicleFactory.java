@@ -3,8 +3,8 @@ package java.factory;
 abstract class Vehicle {
     public abstract int getWheelCount();
 
-    public String toString(){
-        return "Wheel count:"+ this.getWheelCount()
+    public String toString() {
+        return "Wheel count:" + this.getWheelCount();
     }
 }
 
